@@ -4,7 +4,11 @@
 Project made in collaboration with Alper Kılınç
 ***********************************************
 
-This is 2 player version of the original minesweeper game on VHDL. 1st user selects where the mine is going to be placed with a 3 bit input. 2nd player tries to guess the correct spots. Seven segments are utilized to demonstrate mines. After game is finished, to play again user must write the code on board.
+This VHDL code demonstrates a 2 player version of minesweeper (video game) on a SPARTAN 3A/3AN FPGA board.
+There are two modes. 1st for placing mines 2nd for playing the game. At first mode a 3-bit input is taken from the user 
+to put a mine to 1 of 8 displays. At second mode if player fails to guess where the mine is "lose" is displayed on the 
+display. If user guesses a spot correctly lights of the area is shut down. When there is one spot left, also the same 
+area with the mine, "success" is shown on the display. 
 
 
 ONLY POWER SWITCH MUST BE ON BEFORE STARTING THE GAME
