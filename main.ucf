@@ -1,0 +1,36 @@
+net "SevenSegControl[0]" loc = P50;
+net "SevenSegControl[1]" loc = P49;
+net "SevenSegControl[2]" loc = P52;
+net "SevenSegControl[3]" loc = P56;
+net "SevenSegControl[4]" loc = P59;
+net "SevenSegControl[5]" loc = P57;
+net "SevenSegControl[6]" loc = P60;
+net "SevenSegControl[7]" loc = P61;
+
+net "SevenSegBus[7]" loc = P71; 
+net "SevenSegBus[6]" loc = P62;
+net "SevenSegBus[5]" loc = P65; 
+net "SevenSegBus[4]" loc = P72;
+net "SevenSegBus[3]" loc = P73;
+net "SevenSegBus[2]" loc = P98;
+net "SevenSegBus[1]" loc = P64;
+net "SevenSegBus[0]" loc = P70; 
+
+net "clk" loc = P40;
+
+net "column[0]" loc = P15;
+net "column[1]" loc = P12;
+net "column[2]" loc = P5;
+net "column[3]" loc = P4;
+net "column[4]" loc = P94;
+net "column[5]" loc = P90;
+net "column[6]" loc = P88;
+net "column[7]" loc = P85;
+
+net "hit" loc = P82;
+
+net "mode" loc = P78;
+
+NET "hit" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "mode" CLOCK_DEDICATED_ROUTE = FALSE;

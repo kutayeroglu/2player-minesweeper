@@ -1,0 +1,12 @@
+AR slowerclock behavioral C:/Users/akilinc17/Downloads/Final_Project/slowerClock.vhd sub00/vhpl01 1574766182
+AR sevensegment behavioral C:/Users/akilinc17/Downloads/Final_Project/sevenSegment.vhd sub00/vhpl07 1574766190
+AR driver behavioral C:/Users/akilinc17/Downloads/Final_Project/driver.vhd sub00/vhpl03 1574766184
+AR main behavioral C:/Users/akilinc17/Downloads/Final_Project/main.vhd sub00/vhpl09 1574766192
+EN slowerclock NULL C:/Users/akilinc17/Downloads/Final_Project/slowerClock.vhd sub00/vhpl00 1574766181
+AR mine_selector behavioral C:/Users/akilinc17/Downloads/Final_Project/selector.vhd sub00/vhpl11 1574766188
+AR decoder behavioral C:/Users/akilinc17/Downloads/Final_Project/decoder.vhd sub00/vhpl05 1574766186
+EN main NULL C:/Users/akilinc17/Downloads/Final_Project/main.vhd sub00/vhpl08 1574766191
+EN sevensegment NULL C:/Users/akilinc17/Downloads/Final_Project/sevenSegment.vhd sub00/vhpl06 1574766189
+EN driver NULL C:/Users/akilinc17/Downloads/Final_Project/driver.vhd sub00/vhpl02 1574766183
+EN decoder NULL C:/Users/akilinc17/Downloads/Final_Project/decoder.vhd sub00/vhpl04 1574766185
+EN mine_selector NULL C:/Users/akilinc17/Downloads/Final_Project/selector.vhd sub00/vhpl10 1574766187

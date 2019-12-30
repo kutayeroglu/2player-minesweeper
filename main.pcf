@@ -1,0 +1,39 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 26 14:03:20 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SevenSegControl<2>" LOCATE = SITE "P52" LEVEL 1;
+COMP "SevenSegControl<3>" LOCATE = SITE "P56" LEVEL 1;
+COMP "SevenSegControl<4>" LOCATE = SITE "P59" LEVEL 1;
+COMP "SevenSegControl<5>" LOCATE = SITE "P57" LEVEL 1;
+COMP "SevenSegBus<0>" LOCATE = SITE "P70" LEVEL 1;
+COMP "SevenSegControl<6>" LOCATE = SITE "P60" LEVEL 1;
+COMP "SevenSegBus<1>" LOCATE = SITE "P64" LEVEL 1;
+COMP "SevenSegControl<7>" LOCATE = SITE "P61" LEVEL 1;
+COMP "SevenSegBus<2>" LOCATE = SITE "P98" LEVEL 1;
+COMP "SevenSegBus<3>" LOCATE = SITE "P73" LEVEL 1;
+COMP "SevenSegBus<4>" LOCATE = SITE "P72" LEVEL 1;
+COMP "SevenSegBus<5>" LOCATE = SITE "P65" LEVEL 1;
+COMP "SevenSegBus<6>" LOCATE = SITE "P62" LEVEL 1;
+COMP "SevenSegBus<7>" LOCATE = SITE "P71" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "mode" LOCATE = SITE "P78" LEVEL 1;
+PIN mode_pin<0> = BEL "mode" PINNAME PAD;
+PIN "mode_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "column<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "column<1>" LOCATE = SITE "P12" LEVEL 1;
+COMP "column<2>" LOCATE = SITE "P5" LEVEL 1;
+COMP "column<3>" LOCATE = SITE "P4" LEVEL 1;
+COMP "column<4>" LOCATE = SITE "P94" LEVEL 1;
+COMP "clk" LOCATE = SITE "P40" LEVEL 1;
+COMP "column<5>" LOCATE = SITE "P90" LEVEL 1;
+COMP "column<6>" LOCATE = SITE "P88" LEVEL 1;
+COMP "column<7>" LOCATE = SITE "P85" LEVEL 1;
+COMP "hit" LOCATE = SITE "P82" LEVEL 1;
+PIN hit_pin<0> = BEL "hit" PINNAME PAD;
+PIN "hit_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "SevenSegControl<0>" LOCATE = SITE "P50" LEVEL 1;
+COMP "SevenSegControl<1>" LOCATE = SITE "P49" LEVEL 1;
+SCHEMATIC END;
+

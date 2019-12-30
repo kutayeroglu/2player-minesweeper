@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\akilinc17\Downloads\Final_Project\main.ncd
+OUTFILE=C:\Users\akilinc17\Downloads\Final_Project\main.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5vq100
+WORKINGDIR=C:\Users\akilinc17\Downloads\Final_Project
+LICENSE=WebPack
+USER_INFO=211815208_0_0_450

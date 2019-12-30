@@ -1,0 +1,43 @@
+V3 23
+FL C:/Users/akilinc17/Downloads/Final_Project/decoder.vhd 2019/11/26.14:00:05 P.20131013
+EN work/decoder 1574766185 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/decoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decoder/Behavioral 1574766186 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/decoder.vhd EN work/decoder 1574766185
+FL C:/Users/akilinc17/Downloads/Final_Project/driver.vhd 2019/11/26.14:00:25 P.20131013
+EN work/driver 1574766183 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/driver.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_arith 1381692177
+AR work/driver/Behavioral 1574766184 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/driver.vhd EN work/driver 1574766183
+FL C:/Users/akilinc17/Downloads/Final_Project/main.vhd 2019/11/26.14:02:56 P.20131013
+EN work/main 1574766191 FL C:/Users/akilinc17/Downloads/Final_Project/main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/main/Behavioral 1574766192 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/main.vhd EN work/main 1574766191 \
+      CP mine_selector CP sevenSegment
+FL C:/Users/akilinc17/Downloads/Final_Project/selector.vhd 2019/11/26.13:52:44 P.20131013
+EN work/mine_selector 1574766187 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/selector.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mine_selector/Behavioral 1574766188 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/selector.vhd \
+      EN work/mine_selector 1574766187
+FL C:/Users/akilinc17/Downloads/Final_Project/sevenSegment.vhd 2019/11/26.12:28:02 P.20131013
+EN work/sevenSegment 1574766189 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/sevenSegment.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sevenSegment/Behavioral 1574766190 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/sevenSegment.vhd \
+      EN work/sevenSegment 1574766189 CP work/slowerClock CP work/driver \
+      CP work/decoder
+FL C:/Users/akilinc17/Downloads/Final_Project/slowerClock.vhd 2019/11/26.14:00:36 P.20131013
+EN work/slowerClock 1574766181 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/slowerClock.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/slowerClock/Behavioral 1574766182 \
+      FL C:/Users/akilinc17/Downloads/Final_Project/slowerClock.vhd \
+      EN work/slowerClock 1574766181
